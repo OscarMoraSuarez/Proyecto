@@ -1,0 +1,47 @@
+body {
+    background:rgb(243, 230, 116);
+}
+
+@font-face{
+
+    font-family: Comicy;
+    src: url('/assets/fonts/comicy/Comicy.ttf');
+
+}
+@font-face{
+    font-family:Comicbon;
+    src: url('/assets/fonts/comicbon/Comicbon\ -\ personal\ use.ttf');
+}
+h1 {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.card {
+    font-family: Comicbon;
+    font-weight: bolder;
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    a {
+        color:rgb(241, 149, 10);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: initial;
+            color: rgb(114, 241, 10);
+        }
+    }
+
+    .text-muted i {
+        margin: 0 10px;
+    }
+}
+.logo{
+    filter: drop-shadow(0 0 5px rgb(252, 252, 252))
+}
+.firstTitle{
+    font-family: Comicy;
+}
